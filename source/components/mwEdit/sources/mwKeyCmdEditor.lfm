@@ -1,0 +1,81 @@
+object mwKeystrokeEditorForm: TmwKeystrokeEditorForm
+  Left = 409
+  Top = 273
+  BorderStyle = bsDialog
+  Caption = 'Edit Keystroke'
+  ClientHeight = 94
+  ClientWidth = 252
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 4
+    Top = 8
+    Width = 50
+    Height = 13
+    Caption = 'Command:'
+  end
+  object Label2: TLabel
+    Left = 4
+    Top = 35
+    Width = 50
+    Height = 13
+    Caption = 'Keystroke:'
+  end
+  object cmbCommand: TComboBox
+    Left = 60
+    Top = 4
+    Width = 186
+    Height = 21
+    ItemHeight = 13
+    TabOrder = 0
+  end
+  object hkKeystroke: THotKey
+    Left = 60
+    Top = 32
+    Width = 186
+    Height = 19
+    HotKey = 0
+    InvalidKeys = [hcNone]
+    Modifiers = []
+    TabOrder = 1
+  end
+  object btnOK: TButton
+    Left = 88
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 2
+  end
+  object btnCancel: TButton
+    Left = 172
+    Top = 64
+    Width = 75
+    Height = 25
+    Cancel = True
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 3
+  end
+  object bntClearKey: TButton
+    Left = 4
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Clear Key'
+    TabOrder = 4
+    OnClick = bntClearKeyClick
+  end
+end

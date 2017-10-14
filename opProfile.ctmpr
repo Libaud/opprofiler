@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <MultiProject FileVersion="1">
+    <Elements Count="5">
+      <Element0 FileName="source/components/EZDSL/EZDSL3B3.lpk"/>
+      <Element1 FileName="source/components/mwEdit/Packages/mwedit.lpk"/>
+      <Element2 FileName="source/components/opprofiler/packages/opproffilercomponents.lpk"/>
+      <Element3 FileName="source/opprofile/opProfiler.lpi">
+        <BuildModes Count="1"/>
+        <Mode1 Name="Default"/>
+      </Element3>
+      <Element4 FileName="source/opprofile/opProfilerUnreg.lpi">
+        <BuildModes Count="1"/>
+        <Mode1 Name="Default"/>
+      </Element4>
+    </Elements>
+  </MultiProject>
+</CONFIG>

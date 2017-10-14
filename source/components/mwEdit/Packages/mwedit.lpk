@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="mwEdit"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <IncludeFiles Value="/home/frederic/Developpements/Projets Portages/opProfile/source/components/mwEdit/"/>
+        <OtherUnitFiles Value="/home/frederic/Developpements/Projets Portages/opProfile/source/components/mwEdit/;../sources"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/$(LCLWidgetType)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <SyntaxMode Value="Delphi"/>
+        </SyntaxOptions>
+      </Parsing>
+      <Other>
+        <CustomOptions Value="-dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL"/>
+      </Other>
+    </CompilerOptions>
+    <Files Count="36">
+      <Item1>
+        <Filename Value="../sources/DcjPerlSyn.pas"/>
+        <UnitName Value="DcjPerlSyn"/>
+      </Item1>
+      <Item2>
+        <Filename Value="../sources/cbHPSyn.pas"/>
+        <UnitName Value="cbHPSyn"/>
+      </Item2>
+      <Item3>
+        <Filename Value="../sources/cbUtils.pas"/>
+        <UnitName Value="cbUtils"/>
+      </Item3>
+      <Item4>
+        <Filename Value="../sources/cwCACSyn.pas"/>
+        <UnitName Value="cwCACSyn"/>
+      </Item4>
+      <Item5>
+        <Filename Value="../sources/DBmwEdit.pas"/>
+        <UnitName Value="DBmwEdit"/>
+      </Item5>
+      <Item6>
+        <Filename Value="../sources/DcjCppSyn.pas"/>
+        <UnitName Value="DcjCppSyn"/>
+      </Item6>
+      <Item7>
+        <Filename Value="../sources/DcjJavaSyn.pas"/>
+        <UnitName Value="DcjJavaSyn"/>
+      </Item7>
+      <Item8>
+        <Filename Value="../sources/dmBatSyn.pas"/>
+        <UnitName Value="dmBatSyn"/>
+      </Item8>
+      <Item9>
+        <Filename Value="../sources/dmDfmSyn.pas"/>
+        <UnitName Value="dmDfmSyn"/>
+      </Item9>
+      <Item10>
+        <Filename Value="../sources/hkAWKSyn.pas"/>
+        <UnitName Value="hkAWKSyn"/>
+      </Item10>
+      <Item11>
+        <Filename Value="../sources/hkHTMLSyn.pas"/>
+        <UnitName Value="hkHTMLSyn"/>
+      </Item11>
+      <Item12>
+        <Filename Value="../sources/lbVBSSyn.pas"/>
+        <UnitName Value="lbVBSSyn"/>
+      </Item12>
+      <Item13>
+        <Filename Value="../sources/mkGalaxySyn.pas"/>
+        <UnitName Value="mkGalaxySyn"/>
+      </Item13>
+      <Item14>
+        <Filename Value="../sources/mwCompletionProposal.pas"/>
+        <UnitName Value="mwCompletionProposal"/>
+      </Item14>
+      <Item15>
+        <Filename Value="../sources/mwCustomEdit.pas"/>
+        <UnitName Value="mwCustomEdit"/>
+      </Item15>
+      <Item16>
+        <Filename Value="../sources/mwEditReg.pas"/>
+        <UnitName Value="mwEditReg"/>
+      </Item16>
+      <Item17>
+        <Filename Value="../sources/mwEditSearch.pas"/>
+        <UnitName Value="mwEditSearch"/>
+      </Item17>
+      <Item18>
+        <Filename Value="../sources/mwEditStrings.pas"/>
+        <UnitName Value="mwEditStrings"/>
+      </Item18>
+      <Item19>
+        <Filename Value="../sources/mwExport.pas"/>
+        <UnitName Value="mwExport"/>
+      </Item19>
+      <Item20>
+        <Filename Value="../sources/mwGeneralSyn.pas"/>
+        <UnitName Value="mwGeneralSyn"/>
+      </Item20>
+      <Item21>
+        <Filename Value="../sources/mwHighlighter.pas"/>
+        <UnitName Value="mwHighlighter"/>
+      </Item21>
+      <Item22>
+        <Filename Value="../sources/mwHtmlExport.pas"/>
+        <UnitName Value="mwHtmlExport"/>
+      </Item22>
+      <Item23>
+        <Filename Value="../sources/mwKeyCmdEditor.pas"/>
+        <UnitName Value="mwKeyCmdEditor"/>
+      </Item23>
+      <Item24>
+        <Filename Value="../sources/mwKeyCmds.pas"/>
+        <UnitName Value="mwKeyCmds"/>
+      </Item24>
+      <Item25>
+        <Filename Value="../sources/mwKeyCmdsEditor.pas"/>
+        <UnitName Value="mwKeyCmdsEditor"/>
+      </Item25>
+      <Item26>
+        <Filename Value="../sources/mwLocalStr.pas"/>
+        <UnitName Value="mwLocalStr"/>
+      </Item26>
+      <Item27>
+        <Filename Value="../sources/mwPasSyn.pas"/>
+        <UnitName Value="mwPasSyn"/>
+      </Item27>
+      <Item28>
+        <Filename Value="../sources/mwRtfExport.pas"/>
+        <UnitName Value="mwRtfExport"/>
+      </Item28>
+      <Item29>
+        <Filename Value="../sources/mwSupportClasses.pas"/>
+        <UnitName Value="mwSupportClasses"/>
+      </Item29>
+      <Item30>
+        <Filename Value="../sources/mwSupportProcs.pas"/>
+        <UnitName Value="mwSupportProcs"/>
+      </Item30>
+      <Item31>
+        <Filename Value="../sources/nhAsmSyn.pas"/>
+        <UnitName Value="nhAsmSyn"/>
+      </Item31>
+      <Item32>
+        <Filename Value="../sources/odPySyn.pas"/>
+        <UnitName Value="odPySyn"/>
+      </Item32>
+      <Item33>
+        <Filename Value="../sources/odPythonBehaviour.pas"/>
+        <UnitName Value="odPythonBehaviour"/>
+      </Item33>
+      <Item34>
+        <Filename Value="../sources/siTCLTKSyn.pas"/>
+        <UnitName Value="siTCLTKSyn"/>
+      </Item34>
+      <Item35>
+        <Filename Value="../sources/uTextDrawer.pas"/>
+        <UnitName Value="uTextDrawer"/>
+      </Item35>
+      <Item36>
+        <Filename Value="../sources/wmSQLSyn.pas"/>
+        <UnitName Value="wmSQLSyn"/>
+      </Item36>
+    </Files>
+    <RequiredPkgs Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
