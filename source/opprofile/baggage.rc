@@ -1,4 +1,0 @@
-#include "baggage.inc"
-
-IDD_OPENSOURCE RCDATA "opensource.rtf"
-IDD_WHATSNEW RCDATA "whatsnew.rtf"
